@@ -5,13 +5,13 @@ description: Colab에서 바로 열리는 주차별 실습 노트북
 
 ## 여는 방법
 
-각 노트북 맨 위의 **Open in Colab** 배지를 누르면 바로 열린다. 설치할 것도, 로그인 외에 준비할 것도 없다.
+각 노트북 맨 위의 **Open in Colab** 배지를 누르면 바로 열린다. 설치 셀은 노트북에 제공. 인터넷과 모델 다운로드 공간 필요. 2주차 AI Hub 원본과 9주차 교수 제공 포털 파일은 별도 준비하며, 미확보 상태는 예시 관찰과 구분해 기록.
 
 ## 노트북은 이런 모양이다
 
 1. **목표 한 줄** - 이 노트북을 끝내면 무엇이 돌아가는지
 2. **그냥 실행하면 되는 셀들** - 먼저 결과가 나오는 것을 확인한다
-3. **`# TODO` 한 곳** - 여기 한 지점만 바꿔 무엇이 달라지는지 본다
+3. **`# TODO` 한 곳** - 여기 한 지점만 바꿔 무엇이 달라지는지 본다. 8·10·11·13주차는 TODO 없이 제공된 실험을 실행·해석한다
 4. **확인 질문** - 결과를 어떻게 읽을지
 5. **제출 안내**
 
@@ -21,21 +21,27 @@ TODO를 건드리지 않아도 노트북은 처음부터 끝까지 돌아간다.
 
 | 주 | 주제 | 노트북 |
 |---|---|---|
-| 1 | 차세대 NLP 아키텍처의 이해와 과목 뼈대 공유 | 준비 중 |
+| 1 | 차세대 NLP 아키텍처의 이해와 과목 뼈대 공유 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-01.ipynb) |
 | 2 | 구현 기반 - 학습 루프와 텐서 연산 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-02.ipynb) |
 | 3 | 효율적 미세조정의 원리와 변형 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-03.ipynb) |
-| 4 | 프롬프트와 문맥학습의 원리 | 준비 중 |
-| 5 | 평가 시스템과 지표가 측정하지 못하는 것 | 준비 중 |
-| 6 | 멀티모달 표현의 결합 | 준비 중 |
-| 7 | 장문맥 처리와 효율적 추론 | 준비 중 |
-| 8 | 중간고사 및 PEFT 심화 | 준비 중 |
-| 9 | 검색 결합 생성(RAG)의 구조 | 준비 중 |
-| 10 | 정렬 기법의 계보 - RLHF에서 GRPO까지 | 준비 중 |
-| 11 | 과정 감독과 신용 할당 - PRM과 토큰 수준 credit | 준비 중 |
-| 12 | AI 규제와 책임 있는 AI | 준비 중 |
-| 13 | 최신 연구 동향과 미래 전망 | 준비 중 |
-| 14 | 최종 프로젝트 개발 및 운영 전환 | 준비 중 |
-| 15 | 산업 응용 사례 분석 및 최종 발표 | 없음 |
+| 4 | 프롬프트와 문맥학습의 원리 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-04.ipynb) |
+| 5 | 평가 시스템과 지표가 측정하지 못하는 것 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-05.ipynb) |
+| 6 | 멀티모달 표현의 결합 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-06.ipynb) |
+| 7 | 장문맥 처리와 효율적 추론 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-07.ipynb) |
+| 8 | 중간고사 및 PEFT 심화 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-08.ipynb) (자가 점검, TODO 없음) |
+| 9 | 검색 결합 생성(RAG)의 구조 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-09.ipynb) |
+| 10 | 정렬 기법의 계보 - RLHF에서 GRPO까지 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-10.ipynb) (관찰 전용, TODO 없음) |
+| 11 | 과정 감독과 신용 할당 - PRM과 토큰 수준 credit | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-11.ipynb) (관찰 전용, TODO 없음) |
+| 12 | AI 규제와 책임 있는 AI | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-12.ipynb) |
+| 13 | 최신 연구 동향과 미래 전망 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-13.ipynb) (제공된 실험 관찰, TODO 없음) |
+| 14 | 최종 프로젝트 개발 및 운영 전환 | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/week-14.ipynb) |
+| 15 | 산업 응용 사례 분석 및 최종 발표 | [발표·데모 자료](/weeks/week-15/) (새 노트북 없음) |
+
+## 특강
+
+| 주제 | 노트북 |
+|---|---|
+| [Jev와 LLM: 결정 모델과 생성 모델](/topics/jev-vs-llm) | [열기](https://colab.research.google.com/github/halla-ai/deepnlp-2026/blob/main/notebooks/topic-jev-vs-llm.ipynb) |
 
 ## 막혔을 때
 
